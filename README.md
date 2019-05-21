@@ -21,7 +21,7 @@ PHP 5 / MySQL / HTML 5
 
 ·         Une page de T’chat, avec :
 
-·         Listing des messages archivés
+·         Listing des messages archivés ( Les charger en JSON)
 
 ·         Possibilité de dialoguer avec les autres membres
 
