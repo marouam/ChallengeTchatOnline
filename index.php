@@ -8,7 +8,7 @@ if(session_id() == '' || !isset($_SESSION)) {
 }
 //Pour que cette page fonctionne, on a besoin de notre controleur, qui s'appelle TchatController 
 //Il est au niveau controller/tchatController
-require('controller/tchatController');
+require('controller/tchatController.php');
 
 //On commence par voir si l'utilisateur est déjà connecté 
 //On appelle la fonction isConnected  
