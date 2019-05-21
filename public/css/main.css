@@ -1,0 +1,48 @@
+
+/*   MAIN CSS */
+
+/* TCHATWINDOWVIEW PAGE CSS */
+#archiveZone{
+	font-size: 38px!important;
+	padding-top: 55px;
+}
+
+#UsersZone{
+	font-size: 36px!important;
+	float: right;
+	padding-top: 25px;
+}
+#logoutIcon{
+	color: grey;
+}
+#logoutIcon:hover{
+ color: red;
+cursor:pointer;
+}
+
+#archiveIcon:hover{
+color: green;
+cursor:pointer;
+}
+#id_chat_discussions{
+	display: block;
+    height: 70%;
+    border-radius: 4px 4px 4px 4px;
+    border-bottom: thick;
+    border: #d60d6a;
+    border: 14px;
+    border-color: black;
+    overflow-y: scroll;
+}
+#usersOnline{
+	display: block;
+    height: 70%;
+    border-radius: 4px 4px 4px 4px;
+    border-bottom: thick;
+    border: #d60d6a;
+    border: thick;
+    overflow-y: scroll;
+}
+#sendMessage{
+	width: 20%;
+}
